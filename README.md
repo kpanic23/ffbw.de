@@ -1,6 +1,6 @@
-FFKA website
+FFBW website
 ============================
-[karlsruhe.freifunk.net](https://karlsruhe.freifunk.net)
+[ffbw.de](https://ffbw.de)
 
 ## Dependencies
  - Install a javascript runtime, e.g. nodejs

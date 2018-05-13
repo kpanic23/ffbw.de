@@ -1,7 +1,7 @@
 ---
 title: Mitmachen
 permalink: /mitmachen/
-layout: 
+layout: main 
 main_menu: true
 weight: 1 
 top_url: /mitmachen/

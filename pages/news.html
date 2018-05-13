@@ -17,9 +17,26 @@ top_url: /news/
 		<header>
 			<h2 class="post-title">{{ page.title }}</h2>
 		</header>
-		
+	<div class="row">
+			<div class="8u 12u(3)">
+				{% for post in site.posts %}
+				<div class="box">
+						<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-		</div>
+						<h3>
+							<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						</h3>
+
+						<div class="post-content">
+                                                {{ post.content }}
+                                                {% include social.html post=post %}
+                                                </div>
+				</div>
+				{% endfor %}
+			</div>
+
+	</div>		
+
     </section>
 
     {% include footer.html %}
