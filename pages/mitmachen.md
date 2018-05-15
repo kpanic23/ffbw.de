@@ -45,3 +45,5 @@ In Baden-Württemberg sind dies folgende Communities
 * [Freifunk Waldshut-Tiengen-Klettgau](https://freifunk-3laendereck.net)
 * [Freifunk Weinstadt](http://freifunk-weinstadt.de/)
 * [Freifunk Wiesental](https://freifunk-3laendereck.net)
+* Freifunk Zollernalb
+
