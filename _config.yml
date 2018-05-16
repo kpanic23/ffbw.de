@@ -1,9 +1,9 @@
 # Site settings
 title: Freifunk Baden-Württemberg 
-tagline: das freie WLAN-Netzwerk fürBaden-Württemberg
+tagline: das freie WLAN-Netzwerk für Baden-Württemberg
 email: info@ffbw.de
 description: > # this means to ignore newlines until "baseurl:"
- Freifunk Baden-Württemberg ist einelandesweite Initiative mit dem Ziel, ein WLAN-Netzwerk überBaden-Württemberg aufzuspannen und freien Internetzugang anzubieten.
+ Freifunk Baden-Württemberg ist eine landesweite Initiative mit dem Ziel, ein WLAN-Netzwerk über Baden-Württemberg aufzuspannen und freien Internetzugang anzubieten.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ffbw.de" # the base hostname & protocol for your site
 twitter_username: FFKarlsruhe
