@@ -35,7 +35,7 @@ In Baden-Württemberg sind dies folgende Communities
 * [Freifunk Lörrach-Oberrhein](https://freifunk-3laendereck.net)
 * [Freifunk Mössingen](https://freifunk-moessingen.de/)
 * [Freifunk Neckar-Alb](https://www.freifunk-neckaralb.de/)
-* [Freifunk Nordschwarzwald-Gäu](https://freifunk-3laendereck.net)
+* [Freifunk Nordschwarzwald-Gäu](https://www.freifunk-nordschwarzwald-gaeu.de)
 * [Freifunk Rhein-Neckar](https://www.freifunk-rhein-neckar.de/)
 * [Freifunk Schwarzwald-Baar](https://freifunk-3laendereck.net)
 * [Freifunk Stuttgart](https://freifunk-stuttgart.de/)

@@ -10,9 +10,10 @@ permalink: /mitmachen/router-einrichten/
 ### Den Router anschließen
 
 
-1. Lade das passende Erstinstallations-Firmware-Image für deinen Router [von unserer Seite](https://karlsruhe.freifunk.net/firmware) herunter.
-2. Verbinde deinen Computer mit einem der gelben LAN-Anschlüsse des Routers.
-3. Dein Computer erhält nun automatisch via DHCP eine IP-Adresse.
+1. Hol' Dir bei Deiner lokalen Freifunk-Community eine Empfehlung, welcher Router zukunftssicher und zu empfehlen ist, um Fehlkäufe zu vermeiden.
+2. Lade das passende Erstinstallations-Firmware-Image für deinen Router von der [Seite der für Dich passenden Freifunk-Community](/mitmachen/) herunter.
+3. Verbinde deinen Computer mit einem der gelben LAN-Anschlüsse des Routers.
+4. Dein Computer erhält nun automatisch via DHCP eine IP-Adresse.
 
 ### Installiere das Freifunk-Image
 
@@ -27,22 +28,23 @@ Dein Router sollte nun in den Konfigurationsmodus starten. Du erhältst erneut e
 
 ### Den Router konfigurieren
 
-1. Wähle einen Namen nach dem Schema `ffka-Wahlname`, also bspw. `ffka-Kaesekuchen`.
+1. Wähle einen Namen nach dem Schema `<Communitykürzel>-Wahlname`, also bspw. `ffka-Kaesekuchen` für Freifunk Karlsruhe.
 2. Aktiviere das `Mesh-VPN`, um eine Verbindung mit dem Freifunk-Netz über das Internet herzustellen
 3. Füge GPS-Koordinaten des Router-Standorts ein. Diese kannst du auf unterschiedliche Weisen erhalten:
-  - Am PC: über [unsere Karte](https://karlsruhe.freifunk.net/meshviewer/) (Zuerst Pin klicken, dann Doppelklick auf die Position des Routers)
+  - Am PC: über [unsere Karte](/karte/) (Zuerst Pin klicken, dann Doppelklick auf die Position des Routers)
   - Android: [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)
 4. Trage eine funktionierende Kontaktmöglichkeit ein. Deine Adresse wird ausschließlich zur Kontaktaufnahme durch uns genutzt und niemals an Dritte weitergegeben.
 5. Nach einem Klick auf `Speichern und Neustarten` siehst du den Öffentlichen Schlüssel, damit ist dein Router automatisch freigeschaltet. <br />
-`ffka-Wahlname ` <br />
+`<Communitykürzel>-Wahlname ` <br />
 `key "f1d2d2f924e986ac86fdf7b36c94bcdf32beec15"` <br />
+6. Bei einigen Communities musst Du den Key noch zusätzlich an eine Kontaktadresse senden, damit der Router in das Freifunk-Netz aufgenommen wird.
 
-Danach startet der Router neu, sendet das WLAN `karlsruhe.freifunk.net` aus und versucht, sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald sich der neue Freifunk-Knoten mit unserem `Mesh-VPN` verbunden hat.
+Danach startet der Router neu, sendet das WLAN `Freifunk` oder `<Communityname>.freifunk.net` aus und versucht, sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald sich der neue Freifunk-Knoten mit unserem `Mesh-VPN` über Deinen vorhandenen Internetanschluss verbunden hat.
 
 Der Router ist jetzt im Normalbetrieb und nicht mehr unter der Adresse [http://192.168.1.1](http://192.168.1.1) erreichbar, für weitere Änderungen siehe [FAQ](/mitmachen/faq/).
 
 ### Den Router aufstellen
-Als Standort empfehlen sich Fenster, Balkone oder Dächer. Je näher er der Außenwelt ist, desto wahrscheinlicher ist es, dass er für Passanten erreichbar ist und sich mit anderen Routern verbindet, um eine [Meshverbindung](https://de.wikipedia.org/wiki/Vermaschtes_Netz) zu bilden.
+Als Standort empfehlen sich Fenster, Balkone oder Dächer. Je näher er der Außenwelt ist, desto wahrscheinlicher ist es, dass er für Passanten erreichbar ist und sich mit anderen Routern verbindet, um eine [Meshverbindung](https://de.wikipedia.org/wiki/Vermaschtes_Netz) zu bilden. Falls Du einen Outdoor-Router aufstellen möchtest, dann bitte nimm mit Deiner lokalen Freifunk-Community Kontakt auf, um ebenfalls geeignete Router zu finden.
 
 ### Verbinde den Router mit dem Netzwerk
 
@@ -50,6 +52,4 @@ Wenn du deinen Internetzugang zur Verfügung stellen möchtest, verbinde jetzt d
 
 ### Fertig
 
-Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS-Koordinaten angegeben hast, in Kürze auf der [Karte](https://karlsruhe.freifunk.net/meshviewer/) erscheinen.
-
-Außerdem haben wir für dich einen [Beipackzettel](../..//images/freifunk_karlsruhe_beipackzettel_a5_du.pdf) vorbereitet, auf dem alle wichtigen Punkte noch einmal zusammen gefasst sind.
+Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS-Koordinaten angegeben hast, in Kürze auf der [Karte](/karte/) erscheinen. Deine lokale Community hat sicher ihre eigene Karte, auf die Router ersichtlich sind.
