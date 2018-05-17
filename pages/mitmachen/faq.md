@@ -9,7 +9,7 @@ permalink: /mitmachen/faq/
 
 ### Wo stehen schon Freifunk-Router?
 
-Schau mal auf der [Karte](../../karte/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+Schau mal auf der [Karte](/karte/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
 
 ### Warum ist das alles kostenlos? Wo ist der Haken?
 
@@ -17,9 +17,7 @@ Freifunk ist eine gemeinschaftliche Bewegung, die einen freien Netzzugang als ge
 
 ### Muss ich als Freifunker Angst vor Abmahnungen haben?
 
-Freifunk Karlsruhe gehört organisatorisch zum gemeinnützigen Verein “Freifunk Rheinland e.V.”, welcher eigene Netzwerkinfrastruktur betreibt.
-
-Unser Verein ist anderen Telekommunikationsdiensteanbietern (ISP) praktisch rechtlich gleichgestellt und kann sich in Bezug der Störerhaftung auf das "Providerprivileg" berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
+Die lokalen Freifunk-Communities sind über ihre Vereinsstruktur anderen Telekommunikationsdiensteanbietern (ISP) praktisch rechtlich gleichgestellt und können sich in Bezug der Störerhaftung auf das "Providerprivileg" berufen. Unabhängig von der rechtlichen Situation als Telekommunikationsdiensteanbieter sorgen wir mit technischen Maßnahmen dafür, dass die Störerhaftung nicht auf den eigentlichen Betreiber des Routers zurückfällt.
 
 ### Benötige ich einen Router für 2,4 GHz oder 5 GHz?
 
@@ -38,13 +36,13 @@ Dies ist aus verschiedenen Gründen mit der Standard-Freifunk-Firmware nicht mö
  - Das im Router verbaute WLAN-Modul kann meist nur auf einer Frequenz gleichzeitig funken. Somit wäre allein technisch eine Verbindung nur dann möglich, wenn das Uplink-WLAN auf der gleichen Frequenz wie Freifunk sendet.
  - In diesem Fall würde die "Airtime" (also die Zeit, die der Funkkanal belastet wird) doppelt beansprucht, zum Senden im Freifunk-Netz und zum Weiterreichen ins Uplink-WLAN.
  - Zwei WLAN-Radios an einem Freifunkrouter könnten einen Uplink theoretisch auch auf einem anderen Kanal ermöglichen, dies erfordert jedoch manuelle Konfiguration, welche bei aktivem Autoupdater kaputt gehen könnte.
- - Ein USB-WLAN-Stick, welcher das 2. Radio bereitstellen könnte, kostet auch ~15€, ungefähr so viel wie schon ein kleiner vollständiger Freifunk-Router (TP-Link WR841N).
+ - Ein USB-WLAN-Stick, welcher das 2. Radio bereitstellen könnte, kostet auch ~15€, ungefähr so viel wie schon ein kleiner vollständiger Freifunk-Router.
 
 Unsere Empfehlung wäre daher, einen Freifunk-Router an der Quelle hinzustellen (dort, wo es ein Netzwerkkabel gibt), und am zweiten Standort einen zweiten Freifunk-Router, welcher mit dem ersten meshen würde und so den Zugang zum Rest des Netzes bereitstellt. Diese Lösung ist auch updatesicher und erfordert keine manuelle Konfiguration.
 
 ### Wie kann ich nachträglich Änderungen am Router vornehmen?
 
-Im Normalbetrieb ist auf dem Router nur eine [Statusseite](http://nextnode.ffka) erreichbar. Willst du Änderungen vornehmen, musst du den Router in den Config-Mode versetzen. Hierzu drückst du am hochgefahrenen Router die `WPS/Reset`-Taste so lange, bis alle Lampen kurz aufleuchten, und lässt sie dann los. Nach kurzer Zeit sollte die Status-LED charakteristisch blinken (siehe Grafik). Du erhältst nun an einem der LAN-Ports wieder eine IP-Adresse per DHCP und kannst die Konfigurationsseite unter [http://192.168.1.1](http://192.168.1.1) erreichen.
+Im Normalbetrieb ist auf dem Router nur eine Statusseite erreichbar. Willst du Änderungen vornehmen, musst du den Router in den Config-Mode versetzen. Hierzu drückst du am hochgefahrenen Router die `WPS/Reset`-Taste so lange, bis alle Lampen kurz aufleuchten, und lässt sie dann los. Nach kurzer Zeit sollte die Status-LED charakteristisch blinken (siehe Grafik). Du erhältst nun an einem der LAN-Ports wieder eine IP-Adresse per DHCP und kannst die Konfigurationsseite unter [http://192.168.1.1](http://192.168.1.1) erreichen.
 
 ![Config Mode](https://gluon.readthedocs.org/en/latest/_images/node_configmode.gif)
 
