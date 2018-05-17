@@ -1,7 +1,7 @@
 ---
 title: Mitmachen
-permalink: /mitmachen/
-layout: main 
+layout: page
+permalink: /mitmachen/ 
 main_menu: true
 weight: 1 
 top_url: /mitmachen/
