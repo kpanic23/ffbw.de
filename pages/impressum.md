@@ -7,7 +7,7 @@ permalink: /impressum/
 top_url: /impressum/
 ---
 
-Freifunk Karlsruhe ist Teil des [Freifunk Rheinland e.V.  ](https://freifunk-rheinland.net/).
+FFBW.de wird durch den Freifunk Karlsruhe betrieben. Freifunk Karlsruhe ist Teil des [Freifunk Rheinland e.V.  ](https://freifunk-rheinland.net/).
 
 ## Angaben gemäß § 5 TMG und § 55 RStV
  Freifunk Karlsruhe <br>
